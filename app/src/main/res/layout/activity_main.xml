@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/todolist"
+        android:layout_width="137dp"
+        android:layout_height="45dp"
+        android:background="@drawable/backround"
+        android:fontFamily="@font/roboto"
+        android:text="To do list"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/addtodo"
+        android:layout_width="137dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/backround"
+        android:fontFamily="@font/roboto"
+        android:text="Add to do"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" />
+
+</LinearLayout>
